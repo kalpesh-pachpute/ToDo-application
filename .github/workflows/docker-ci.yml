@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t kalpeshpachpute/todo-application ./app
+        run: docker build -t kalpesh72/todo-application ./app
 
       - name: Push Docker image
-        run: docker push kalpeshpachpute/todo-application
+        run: docker push kalpesh72/todo-application
